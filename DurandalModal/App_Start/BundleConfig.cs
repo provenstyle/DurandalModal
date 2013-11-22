@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace MvcApplication9
+namespace DurandalModal.App_Start
 {
    public class BundleConfig
    {

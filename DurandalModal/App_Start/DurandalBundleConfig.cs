@@ -1,7 +1,7 @@
 using System;
 using System.Web.Optimization;
 
-namespace MvcApplication9 {
+namespace DurandalModal.App_Start {
   public class DurandalBundleConfig {
     public static void RegisterBundles(BundleCollection bundles) {
       bundles.IgnoreList.Clear();

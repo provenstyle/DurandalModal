@@ -2,9 +2,9 @@ using System;
 using System.Web.Optimization;
 
 [assembly: WebActivator.PostApplicationStartMethod(
-    typeof(MvcApplication9.App_Start.DurandalConfig), "PreStart")]
+    typeof(DurandalModal.App_Start.DurandalConfig), "PreStart")]
 
-namespace MvcApplication9.App_Start
+namespace DurandalModal.App_Start
 {
     public static class DurandalConfig
     {
