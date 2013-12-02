@@ -1,3 +1,24 @@
-﻿<div>
-    <h2>Message Box</h2>
+﻿<div class="crud">
+    <header>
+        <span class="heading" >Courses</span>
+    </header>
+        
+    <ul data-bind="foreach: courses">
+        <li>
+            <div class="row-fluid">
+                <div class="span11">
+                    <div class="courses">
+                        <h3 data-bind="text: name"></h3>
+                        <p data-bind="text: description"></p>
+                    </div>
+                </div>
+                <div class="span1">
+                    <button class="btn edit" data-bind="click: $parent.deleteCourse">Delete</button>	        		        
+                </div>
+            </div>
+        </li>
+    </ul>
+
 </div>
+
+    

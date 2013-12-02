@@ -12,6 +12,7 @@ namespace DurandalModal.App_Start {
 			.Include("~/Scripts/jquery-{version}.js")
 			.Include("~/Scripts/bootstrap.js")
 			.Include("~/Scripts/knockout-{version}.js")
+			.Include("~/Scripts/underscore.min.js")
 		);
 
       bundles.Add(
@@ -23,6 +24,7 @@ namespace DurandalModal.App_Start {
 		  .Include("~/Content/durandal.css")
           .Include("~/Content/starterkit.css")
           .Include("~/Content/app.css")
+          .Include("~/Content/crud.css")
         );
     }
 

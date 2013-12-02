@@ -1,18 +1,24 @@
-﻿define(['plugins/dialog'], function(dialog) {
+﻿define(['plugins/dialog'], function (dialog) {
 
-        var message = ko.observable();
-        var response = ko.observable();
+    var message = ko.observable();
+    var response = ko.observable();
 
-        var show = function () {
-            dialog.show("viewmodels/passingDataDialog", message())
-                .done(function (data) {
-                    response(data);
-                });
-        };
+    var activate = function () {
+        message('');
+        response('');
+    };
 
-        return {
-            show: show,
-            message: message,
-            response: response
-        };
+    var show = function () {
+        dialog.show("viewmodels/passingDataDialog", message())
+            .done(function (data) {
+                response(data);
+            });
+    };
+
+    return {
+        activate:activate,
+        show: show,
+        message: message,
+        response: response
+    };
 });
