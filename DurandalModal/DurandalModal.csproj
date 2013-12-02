@@ -139,13 +139,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\main.js" />
-    <Content Include="App\viewmodels\flickr.js" />
-    <Content Include="App\viewmodels\myModal.js" />
+    <Content Include="App\viewmodels\about.js" />
+    <Content Include="App\viewmodels\passingData.js" />
+    <Content Include="App\viewmodels\passingDataDialog.js" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\viewmodels\welcome.js" />
-    <Content Include="App\views\detail.html" />
-    <Content Include="App\views\flickr.html" />
-    <Content Include="App\views\myModal.html" />
+    <Content Include="App\views\about.html" />
+    <Content Include="App\views\passingData.html" />
+    <Content Include="App\views\passingDataDialog.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="App\views\welcome.html" />
     <Content Include="Content\app.css" />
@@ -163,6 +164,7 @@
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Content\images\icon.png" />
+    <Content Include="Content\images\icon_512.png" />
     <Content Include="Content\images\ios-startup-image-landscape.png" />
     <Content Include="Content\images\ios-startup-image-portrait.png" />
     <Content Include="Content\starterkit.css" />

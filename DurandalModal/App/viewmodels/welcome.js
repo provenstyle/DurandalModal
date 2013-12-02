@@ -24,6 +24,13 @@
              });
        };
 
+       this.showModal2 = function () {
+           dialog.show({
+               viewUrl: 'views/message.html',
+               message: 'Hello World'
+           });
+       };
+
        this.result = ko.observable('');
        this.message = ko.observable('');
    };
