@@ -1,4 +1,4 @@
-﻿define(['plugins/router', 'durandal/app', 'plugins/dialog'], function (router, app, dialog) {
+﻿define(['plugins/router'], function (router) {
     return {
         router: router,
         activate: function () {
@@ -9,9 +9,6 @@
             ]).buildNavigationModel();
             
             return router.activate();
-        },
-        about: function() {
-            dialog.show('viewmodels/about');
         }
     };
 });
