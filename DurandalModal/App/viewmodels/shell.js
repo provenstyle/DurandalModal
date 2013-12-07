@@ -1,4 +1,4 @@
-﻿define(['plugins/router', 'durandal/app'], function (router, app) {
+﻿define(['plugins/router', 'durandal/app', 'plugins/dialog'], function (router, app, dialog) {
     return {
         router: router,
         activate: function () {
@@ -11,7 +11,7 @@
             return router.activate();
         },
         about: function() {
-            app.showDialog('viewmodels/about');
+            dialog.show('viewmodels/about');
         }
     };
 });
