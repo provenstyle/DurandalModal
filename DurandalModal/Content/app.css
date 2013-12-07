@@ -3,6 +3,12 @@
     margin: auto auto;
 }
 
+.welcome h2{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+
 .modalHost div.passingData {
     padding: 25px;
     background-color: white;
@@ -45,7 +51,7 @@ div.passingData {
 }
 
 .about ul li {
-    width: 350px;
+    width: 380px;
     height: 60px;
     padding-top: 40px;
     margin-bottom: 20px;
@@ -59,19 +65,19 @@ div.passingData {
 }
 
 .about ul li:nth-child(1) {
-    background-color: rgb(33, 131, 184)
+    background-color: rgb(127, 191, 225)
 }
 
 .about ul li:nth-child(2) {
-    background-color: rgb(223,218, 65)
+    background-color: rgb(251,196,114)
 }
 
 .about ul li:nth-child(3) {
-    background-color: rgb(7, 188, 61)
+    background-color: rgb(78, 223, 122)
 }
 
 .about ul li:nth-child(4) {
-    background-color: rgb(219,0,47)
+    background-color: rgb(250, 82, 118)
 }
 
 .about a:link, .about a:visited{
